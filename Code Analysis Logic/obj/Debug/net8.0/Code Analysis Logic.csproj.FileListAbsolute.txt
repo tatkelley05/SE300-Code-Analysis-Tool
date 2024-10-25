@@ -12,3 +12,18 @@ C:\Users\Tatum Kelley\source\repos\Code Analysis Logic\Code Analysis Logic\obj\D
 C:\Users\Tatum Kelley\source\repos\Code Analysis Logic\Code Analysis Logic\obj\Debug\net8.0\Code Analysis Logic.pdb
 C:\Users\Tatum Kelley\source\repos\Code Analysis Logic\Code Analysis Logic\obj\Debug\net8.0\Code Analysis Logic.genruntimeconfig.cache
 C:\Users\Tatum Kelley\source\repos\Code Analysis Logic\Code Analysis Logic\obj\Debug\net8.0\ref\Code Analysis Logic.dll
+C:\Users\JD\Source\Repos\SE300-Code-Analysis-Tool\Code Analysis Logic\bin\Debug\net8.0\Code Analysis Logic.exe
+C:\Users\JD\Source\Repos\SE300-Code-Analysis-Tool\Code Analysis Logic\bin\Debug\net8.0\Code Analysis Logic.deps.json
+C:\Users\JD\Source\Repos\SE300-Code-Analysis-Tool\Code Analysis Logic\bin\Debug\net8.0\Code Analysis Logic.runtimeconfig.json
+C:\Users\JD\Source\Repos\SE300-Code-Analysis-Tool\Code Analysis Logic\bin\Debug\net8.0\Code Analysis Logic.dll
+C:\Users\JD\Source\Repos\SE300-Code-Analysis-Tool\Code Analysis Logic\bin\Debug\net8.0\Code Analysis Logic.pdb
+C:\Users\JD\Source\Repos\SE300-Code-Analysis-Tool\Code Analysis Logic\obj\Debug\net8.0\Code Analysis Logic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JD\Source\Repos\SE300-Code-Analysis-Tool\Code Analysis Logic\obj\Debug\net8.0\Code Analysis Logic.AssemblyInfoInputs.cache
+C:\Users\JD\Source\Repos\SE300-Code-Analysis-Tool\Code Analysis Logic\obj\Debug\net8.0\Code Analysis Logic.AssemblyInfo.cs
+C:\Users\JD\Source\Repos\SE300-Code-Analysis-Tool\Code Analysis Logic\obj\Debug\net8.0\Code Analysis Logic.csproj.CoreCompileInputs.cache
+C:\Users\JD\Source\Repos\SE300-Code-Analysis-Tool\Code Analysis Logic\obj\Debug\net8.0\Code Analysis Logic.sourcelink.json
+C:\Users\JD\Source\Repos\SE300-Code-Analysis-Tool\Code Analysis Logic\obj\Debug\net8.0\Code Analysis Logic.dll
+C:\Users\JD\Source\Repos\SE300-Code-Analysis-Tool\Code Analysis Logic\obj\Debug\net8.0\refint\Code Analysis Logic.dll
+C:\Users\JD\Source\Repos\SE300-Code-Analysis-Tool\Code Analysis Logic\obj\Debug\net8.0\Code Analysis Logic.pdb
+C:\Users\JD\Source\Repos\SE300-Code-Analysis-Tool\Code Analysis Logic\obj\Debug\net8.0\Code Analysis Logic.genruntimeconfig.cache
+C:\Users\JD\Source\Repos\SE300-Code-Analysis-Tool\Code Analysis Logic\obj\Debug\net8.0\ref\Code Analysis Logic.dll

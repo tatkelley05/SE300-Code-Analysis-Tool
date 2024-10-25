@@ -3,6 +3,7 @@
 // C# program to print Hello World! 
 using System;
 using System.IO;
+using System.Reflection;
 using System.Text;
 
 // namespace declaration 
@@ -14,49 +15,27 @@ namespace HelloWorldApp
 
         // Main Method 
         public static void Main()
-        {
-            string path = @"C:\Users\Tatum Kelley\source\repos\Code Analysis Logic\Code Analysis Logic\javatestfiles\Lab01_Kelley.java";
+        {   
 
-            // Create the file if it does not exist.
-            if (!File.Exists(path))
+            //old method is commented out, new method should properly call the file properly regardless of your PC or user account
+            //string path = @"C:\Users\Tatum Kelley\source\repos\Code Analysis Logic\Code Analysis Logic\javatestfiles\Lab01_Kelley.java";
+            string path = @"../../../javatestfiles/Lab01_Kelley.java";
+
+
+
+            string[] myInputFile = File.ReadAllLines(path);
+
+            TextFormatter testTF = new TextFormatter("testTF", myInputFile);
+            string[][] displayTest = testTF.formatFile();
+            for (int i = 0; i < displayTest.Length; i++)
             {
-                // Create the file.
-                /**
-                using (FileStream fs = File.Create(path))
-                {
-                    Byte[] info = new UTF8Encoding(true).GetBytes("This is some text in the file.");
-
-                    // Add some information to the file.
-                    fs.Write(info, 0, info.Length);
-                }
-                */
+                Console.WriteLine(String.Join(" ", displayTest[i]));
             }
             
-            // Open the stream and read it back.
-            using (FileStream fs = File.Open(path, FileMode.Open, FileAccess.Read, FileShare.None))
-            {
-                byte[] b = new byte[1024];
-                UTF8Encoding temp = new UTF8Encoding(true);
 
-                while (fs.Read(b, 0, b.Length) > 0)
-                {
-                    Console.WriteLine(temp.GetString(b));
-                }
+            //stops console app from closing immediately after running
+            Console.ReadKey();
 
-                try
-                {
-                    // Try to get another handle to the same file.
-                    using (FileStream fs2 = File.Open(path, FileMode.Open))
-                    {
-                        // Do some task here.
-                    }
-                }
-                catch (Exception e)
-                {
-                    Console.Write("Opening the file twice is disallowed.");
-                    Console.WriteLine(", as expected: {0}", e.ToString());
-                }
-            }
         }
     }
 }
